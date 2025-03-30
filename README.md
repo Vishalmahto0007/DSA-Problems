@@ -2,13 +2,6 @@
 
 Welcome to the **DSA Problems in JavaScript** repository! 🚀 This repository contains various Data Structures and Algorithms (DSA) problems implemented in JavaScript.
 
-## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [How to Run](#how-to-run)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## 📖 Introduction
 This repository is designed to help developers practice and master Data Structures and Algorithms using JavaScript. It includes solutions to common problems related to arrays, strings, linked lists, trees, graphs, dynamic programming, and more.
@@ -22,15 +15,11 @@ Ensure you have the following installed on your system:
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/dsa-problems-js.git
+   git clone https://github.com/vishalmahto0007/dsa-problems.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd dsa-problems-js
-   ```
-3. Install dependencies (if any):
-   ```sh
-   npm install
+   cd dsa-problems
    ```
 
 ## 📂 Folder Structure
