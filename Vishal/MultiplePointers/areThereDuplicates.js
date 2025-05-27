@@ -1,15 +1,16 @@
-function areThereDuplicates(...arr) {
-    // good luck. (supply any arguments you deem necessary.)
-      let i = 0, j = arr.length -1;
-      while(i < j){
-          if(arr[i]===arr[j]) return true;
-          else i++
-      }
-  
-      return false;
+function areThereDuplicates(...args) {
+  args.sort();
+  let i = 0,
+    j = 1;
+
+  while (j < args.length) {
+    if (args[i] === args[j]) return true;
+    i++;
+    j++;
   }
-  
-  // areThereDuplicates(1, 2, 3) // false
-  // areThereDuplicates(1, 2, 2) // true 
-  areThereDuplicates('a', 'b', 'c', 'a') // true 
-  
+
+  return false;
+}
+console.log(areThereDuplicates(1, 2, 3)); // false
+console.log(areThereDuplicates(1, 3, 2, 2)); // true
+console.log(areThereDuplicates("a", "b", "c", "a")); //true
