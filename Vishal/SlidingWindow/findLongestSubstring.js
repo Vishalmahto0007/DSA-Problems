@@ -21,11 +21,12 @@ function findLongestSubstring(str) {
     // store the index of the next char so as to not double count
     seen[char] = i + 1;
   }
+  console.log(seen);
   return longest;
 }
 
 // findLongestSubstring(""); // 0
-// findLongestSubstring("rithmschool"); // 7
+console.log(findLongestSubstring("rithmschool")); // 7
 // findLongestSubstring("thisisawesome"); // 6
 // findLongestSubstring("thecatinthehat"); // 7
 // findLongestSubstring("bbbbbb"); // 1
